@@ -1,3 +1,11 @@
+#include <cstdio>
+#include "Movie.h"
+#include "MovieSeries.h"
+#include "movie_utils.h"
+#include <iostream>
+#include "Global.h"
+
+using namespace std;
 int main() {
     Movie ep5;
     ep5.set_name("Star Wars: Episode V - The Empire Strikes Back");
